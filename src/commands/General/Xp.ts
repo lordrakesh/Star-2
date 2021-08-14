@@ -22,6 +22,10 @@ export default class Command extends BaseCommand {
             const contact = this.client.getContact(user)
             username = contact.notify || contact.vname || contact.name || user.split('@')[0]
         }
-        return void (await M.reply(`${username}'s XP: ${(await this.client.getUser(user)).Xp || 0}`))
+        return void M.reply(await request.buffer('https://wallpapercave.com/wp/wp5532688.png'),
+        MessageType.image,
+                    undefined,
+                    undefined,
+                   `${username}'s XP: ${(await this.client.getUser(user)).Xp || 0}`))`
     }
 }
