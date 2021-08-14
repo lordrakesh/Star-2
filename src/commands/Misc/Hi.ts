@@ -14,6 +14,13 @@ export default class Command extends BaseCommand {
     }
 
     run = async (M: ISimplifiedMessage): Promise<void> => {
-        return void (await M.reply(`Hi ${M.sender.username}!`))
+        
+        
+        
+return void M.reply(await request.buffer('https://wallpapercave.com/wp/wp5532688.png'),
+MessageType.image,
+            undefined,
+            undefined,
+            `*Konnichiwa~Desu*`
     }
 }
