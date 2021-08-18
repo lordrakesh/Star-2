@@ -31,7 +31,7 @@ export default class Command extends BaseCommand {
                     categories[info.config.category].push(info)
                 }
             }
-            let text = `👾 *Koneko Command List* 👾\n\n`
+            let text = `👾 *Konnichiwa (❤w❤). I am Koneko🌙* 👾\n\n`
             const keys = Object.keys(categories)
             for (const key of keys)
                 text += `${this.emojis[keys.indexOf(key)]} *${this.client.util.capitalize(key)}*\n❐ \`\`\`${categories[
