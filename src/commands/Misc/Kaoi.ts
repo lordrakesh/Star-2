@@ -1,5 +1,4 @@
 import { MessageType } from '@adiwajshing/baileys'
-import { join } from 'path'
 import MessageHandler from '../../Handlers/MessageHandler'
 import BaseCommand from '../../lib/BaseCommand'
 import WAClient from '../../lib/WAClient'
@@ -17,6 +16,8 @@ export default class Command extends BaseCommand {
 
     run = async (M: ISimplifiedMessage): Promise<void> => {
         
+
+        
         
 return void M.reply(await request.buffer('https://wallpapercave.com/wp/wp5532688.png'),
 MessageType.image,
@@ -24,5 +25,16 @@ MessageType.image,
             undefined,
             `*Botto-Name: Koneko*`
            
+
+)
+
+
     }
-}
+
+
+
+
+
+
+
+}                    
