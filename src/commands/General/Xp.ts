@@ -27,5 +27,17 @@ export default class Command extends BaseCommand {
                     undefined,
                     undefined,
                    `${username}'s XP: ${(await this.client.getUser(user)).Xp || 0}`))`
+                   
+                   
+ )
+
+
     }
-}
+
+
+
+
+
+
+
+}                 
