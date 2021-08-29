@@ -21,10 +21,10 @@ export default class Command extends BaseCommand {
         filteredMap.forEach(
             (user, index) =>
                 (text += `#${index + 1}\n🎫 *Username: ${
-                    user.notify || user.vname || user.name || 'Simp Freakin Sama'
+                    user.notify || user.vname || user.name || 'Nakshatra'
                 }*\n🍀 *Contact: https://wa.me/+${user?.jid?.split('@')[0]}*\n\n`)
         )
-        text += `\nKoneko `
+        text += `\nStar ✨ `
         return void M.reply(text)
     }
 }
