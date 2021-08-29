@@ -43,7 +43,7 @@ export default class Command extends BaseCommand {
             undefined,
             `🎋 *Username: ${username}*\n\n🎫 *About: ${
                 (await this.client.getStatus(user)).status || 'None'
-            }*\n\n🌟 *XP: ${data.Xp || 0}*`
+            }*\n\n🌟 *XP: ${data.Xp || 0}*\n\n`
         )
     }
 }
