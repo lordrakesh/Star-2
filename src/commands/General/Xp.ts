@@ -41,7 +41,7 @@ export default class Command extends BaseCommand {
             MessageType.image,
             undefined,
             undefined,
-            `${username}'s XP: ${(await this.client.getUser(user)).Xp || 0}`))`
+            `M.reply(`${username}'s XP: ${(await this.client.getUser(user)).Xp || 0}`))`
         )
     }
 }
