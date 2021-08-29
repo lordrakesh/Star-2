@@ -41,7 +41,8 @@ export default class Command extends BaseCommand {
             MessageType.image,
             undefined,
             undefined,
-            `${username}'s XP: ${(await this.client.getUser(user)).Xp || 0}`))`
+            `🎋 *Username: ${username}*\n\n🎫 *Xp: ${(await this.client.getUser(user)).Xp || `0`)
+            }*\n\n🌟
         )
     }
 }
