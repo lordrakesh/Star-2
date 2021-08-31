@@ -1,5 +1,5 @@
 <div align="center">
-<a href="https://ibb.co/wQ4GK21"><img src="https://i.ibb.co/HPqwr9Q/whatsapp-botto-void-init.png" alt="whatsapp-botto-void-init" border="0"></a>
+<a href="https://ibb.co/wQ4GK21"><img src="https://i.ibb.co/cND9ndH/menu.png" alt="whatsapp-botto-void-init" border="0"></a>
 
 # **Kaoi : Next Level Void WhatsApp BOT**
 [![CodeFactor](https://www.codefactor.io/repository/github/prajjwaldatir/kaoi/badge)](https://www.codefactor.io/repository/github/prajjwaldatir/kaoi)
