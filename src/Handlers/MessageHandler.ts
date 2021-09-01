@@ -28,7 +28,12 @@ export default class MessageHandler {
                 sender.username
             )} in ${chalk.cyanBright(groupMetadata?.subject || 'DM')}`
         )
-        if (!command) return void M.reply('BAKA,there is no such command! Try using one from the *.help* list.')
+        if (!command) return void M.reply( await request.buffer('https://i.ibb.co/4MPHYT6/baka.jpg'),
+            MessageType.image,
+            undefined,
+            undefined,
+            
+            'BAKA,there is no such command! Try using one from the *.help* list.')
         const user = await this.client.getUser(M.sender.jid)
         if (user.ban) return void M.reply("You're Banned from using commands.")
         const state = await this.client.DB.disabledcommands.findOne({ command: command.config.command })
